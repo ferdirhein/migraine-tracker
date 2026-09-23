@@ -53,7 +53,6 @@ Adds:
 
 ## Project structure (V2)
 
-```text
 .
 ├── home.py
 ├── regression.py
