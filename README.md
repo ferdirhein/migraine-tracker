@@ -51,19 +51,21 @@ Adds:
 
 ---
 
-## Project structure (current V2)
+## Project structure (V2)
 
-```
+```text
 .
 ├── home.py
-├── weather.py
 ├── regression.py
-└── pages
-    ├── 1_Tracker.py
-    └── 2_Daily_Log_Regression.py
-```
-
----
+├── weather.py
+├── requirements_v2.txt
+├── daily_log_v1_v2.csv
+├── user_ids_v2.csv
+├── pages/
+│   ├── 1_Tracker.py
+│   └── 2_Daily_Log_Regression.py
+├── .gitignore
+└── README.md
 
 ## Data format
 
