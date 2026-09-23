@@ -1,4 +1,4 @@
-# Migraine Tracker (V0 -> V2)
+# Migraine Tracker
 
 A migraine tracking project that evolved across three stages:
 - **V0**: CLI prototype for logging and basic viewing
@@ -63,8 +63,6 @@ Adds:
     └── 2_Daily_Log_Regression.py
 ```
 
-(Each stage also has its own README in its stage folder in the repo. Use those for stage-specific details.)
-
 ---
 
 ## Data format
@@ -96,21 +94,19 @@ Note: regression needs enough non-zero migraine days to be meaningful (in our pr
 
 ## Dependencies
 
-We rely on these libraries. So if you have them installed, you are good to go.
+This tracker relies on these libraries. So if you have them installed, you are good to go.
 - `numpy`
 - `pandas`
 - `statsmodels`
 - `streamlit`
 - `marplotlib`
 
-Or, please refer to the requrements file in each stage for stage-specific dependencies
-- V0: `requirements_v0.txt`
-- V1: `requirements_v1.txt`
+Or, please refer to the requrements file:
 - V2: `requirements_v2.txt`
 
 ---
 
 ## Notes for demo
 
-- The regression part requires sufficient inputs. Thus, we created sample csv files. When you want to try to use the function in V1 and V2, please replace the csv files in the migraine_tracker folder with the files `daily_log_v1_v2.csv`, `user_ids_v1.csv` and `user_ids_v2.csv`, which already include users with sufficient inputs. All the users in these files have `12345` as their password
+- The regression part requires sufficient inputs. Thus, you can find some sample csv files in the repository. All the users in these files have `12345` as their password
 - Streamlit caching can hide recent updates; use **Clear cache** if available users, plots and tables don’t refresh. You can do so from the streamlit menue on top right.
