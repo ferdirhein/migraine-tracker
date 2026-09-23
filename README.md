@@ -54,6 +54,7 @@ Adds:
 ## Project structure (V2)
 
 .
+├── README.md
 ├── home.py
 ├── regression.py
 ├── weather.py
@@ -63,8 +64,7 @@ Adds:
 ├── pages/
 │   ├── 1_Tracker.py
 │   └── 2_Daily_Log_Regression.py
-├── .gitignore
-└── README.md
+└── .gitignore
 
 ## Data format
 
