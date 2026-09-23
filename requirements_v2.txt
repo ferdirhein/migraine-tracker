@@ -1,0 +1,17 @@
+streamlit
+# --> implement the user interface
+
+pandas
+# --> loading, storing, filtering, and processing CSV data files
+
+numpy
+# -->  numerical operations and preprocessing steps in regression analysis
+
+matplotlib
+# --> generate time-series and exploratory plots in the dashboard
+
+statsmodels
+# --> ordinal logistic regression in regression.py
+
+# (csv, pathlib, datetime, json, urllib)
+# --> part of the Python standard library 
