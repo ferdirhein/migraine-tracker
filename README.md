@@ -53,6 +53,7 @@ Adds:
 
 ## Project structure (V2)
 
+```text
 .
 ├── README.md
 ├── home.py
@@ -65,6 +66,7 @@ Adds:
 │   ├── 1_Tracker.py
 │   └── 2_Daily_Log_Regression.py
 └── .gitignore
+```
 
 ## Data format
 
